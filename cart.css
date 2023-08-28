@@ -1,0 +1,106 @@
+*{
+
+}
+#ul1{
+            list-style-type: none;
+            margin-left: 40px;
+        }
+        #li1{
+            
+            float: left;
+            padding: 8px;
+        }
+        div{
+            background-color:thistle;
+            width: 250px;
+            height: 520px;
+            padding: 0px;
+            color: black;
+        }
+        img{
+            width: 180px;
+            height: 230px;
+            padding-left: 30px;
+        }
+        img:hover{
+            border: 1px;
+            width: 180px;
+            height: 240px;
+        }
+    
+        p{
+            font-size: 32px;
+            margin-left: 0px;
+            padding-top: 10px;
+            padding-left: 10px;
+            background-color: #17A2B8;
+            padding-bottom: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        h3{
+            padding-left: 40px;
+            font-size: 28px;
+            margin-top: 1px;
+            margin-bottom: 7px;
+        }
+        input{
+            width: 170px;
+            height: 30px;
+            margin-left: 30px;
+            margin-top: 2px;
+            border: whitesmoke;
+            border-radius: 6px;
+            padding: 10px;
+            font-size:20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input:hover{
+            border: 1px solid rgb(52, 52, 90);
+        }
+
+        #ul2{
+            list-style-type: none;
+            padding-top: 30px;
+            padding-left: 17px;
+
+        }
+        #li2{
+            display: inline;
+            width: 90px;
+        }
+        #li3{
+            display: inline;
+           
+
+        }
+        a{
+            text-decoration: none;
+            background-color:rgb(7, 153, 250);
+            width: 100px;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        a:hover{
+            background-color: tomato;
+            color: white;
+        }
+        h1{
+            background-color:  #08d6fa;
+            text-align: center;
+            padding: 10px;
+            font-size: 43px;
+            
+        }
+        #ul5{
+            list-style-type: none;
+        }
+        #li5{
+            display: inline;
+        }
+        #a5{
+            text-decoration: none;
+        }

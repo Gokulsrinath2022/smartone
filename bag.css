@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.0)50%,rgba(0, 0, 0, 0.0)50%),url(wo.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.Clothes h1{
+    font-size: 70px;
+    font-style: italic;
+   
+    padding-top: 120px;
+    padding-left: 180px;
+    padding-right: 200px;
+
+}
+.Clothes p{
+    text-align: center;
+    margin: 35px 0;
+    color: gray;
+    font-size: 25px;
+}
+input{
+            width: 170px;
+            height: 30px;
+            margin-left: 10px;
+            margin-top: 2px;
+            border: whitesmoke;
+            border-radius: 6px;
+           padding: 10px;
+            font-size:20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+input:hover{
+            border: 1px solid rgb(52, 52, 90);
+        }
+
+        #ul2{
+            list-style-type: none;
+            padding-top: 20px;
+            padding-left: 13px;
+
+        }
+        #li2{
+            display: inline;
+            width: 50px;
+        }
+        #li3{
+            display: inline;
+           
+
+        }
+        a{
+            text-decoration: none;
+            background-color: #f9004d;
+            width: 100px;
+            color: white;
+            font-size: 14px;
+            padding: 10px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        a:hover{
+            background-color: tomato;
+            color: white;
+        }
+
+.clothes_box{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+
+}
+ .clothes_box .clothes_card{
+    background: rosybrown;
+    width: 250px;
+    padding: 33px 33px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 355px;
+    margin-top: 24px;
+    padding: 20px 20px;
+}
+
+ .clothes_box .clothes_card:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+
+.Clothes .clothes_box img{
+    width: 180px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+ .Clothes .clothes_box img:hover{
+    transform: scale(1.1);
+}
+
+ .clothes_box .clothes_card h1{
+    font-size: 15px;
+    color: gainsboro;
+    margin: 10px 0;
+}
+
+.clothes_box .clothes_card p{
+    color: white;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.clothes_box .clothes_card .btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background: #f9004d;
+}
+
+.bottom-details{
+  width: 100%;
+  background: black;
+}
+.bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
